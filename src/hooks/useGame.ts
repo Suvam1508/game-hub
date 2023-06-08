@@ -34,6 +34,8 @@ const useGames = (
         platforms: gameQuery.platform?.id,
 
         ordering: gameQuery.sortOrder,
+
+        search: gameQuery.searchText,
       },
     },
     [gameQuery]
